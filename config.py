@@ -3,10 +3,10 @@ from telethon.sessions import StringSession
 import os
 from pyro import validate_session
 
-APP_ID = os.environ.get("22758461")
-APP_HASH = os.environ.get("6cffe5b771ca80bdfe8a711f333d8222")
+APP_ID = os.environ.get("24944143")
+APP_HASH = os.environ.get("c3a7a7e23f79042411d74e870f480ae3")
 
-ss = os.environ.get("1BVtsOKABuxRJxUauNNheV805_yShEL02H4TDgnUYtm_xG6xehctH0a5fVrsept045sss-Zo6RLmf0My2Aiv2mWTe0-YUbP7291tdHI3k3WHPRdxZxHJBGo5UPqXdgQIrotakXqfhGPfbY6JP7Uvb3WwhiOkQ6EyiwgQmE1g5g2nZs6-qOXAftQR9wTJxhtXcnW29sSftpXyTEa-9FVKoTKhsi8OCNzucNfGUBVS40Urg2oLpIhyqeJu46DvIindHf6h-toYNu8MHAQNVX57uX9Md9fFPCHPZFhUuSxdk7AJQHjxYHae3qs7uMs8-INZ2f88v6WEHVhJh13y4lTpwPTkq5g5TIoA=")
+ss = "1BJWap1sBuxRlwmBL_boDOEaH-0kPdoPbglNZzPAx-0S5X8UOrFHzUKhOD6g_meCMxVyrONMbsVTaY84VKbkVrIFlu6Ma-o7-_5pvdL4Tqr6kqDzKMlFprfJrFukDJxmUStGNc6yHoNZ29IHs1qO1uwc4wS1PHrokPMX4wI-arBDp_y9ZB_CUkgcKm578Xv6es1-n2ndBx89I2CFhdBXxMJaBRioUq4SzFd0iQhVxFTZhLqhohY-b5N6-u9CMyXVEIqx5Wd2Fv-ALFz3j-rQ-FuGPIpBB2e_8Zq_MAv0HgHeNe1DEiGCDqt7tOhkHSheQzoDNP1xlCeGJqSfQiy0kf_mGXmCLrsY="
 session = validate_session(ss)
 IEX = TelegramClient(StringSession(session), APP_ID, APP_HASH)
 
